@@ -24,8 +24,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}/dodjdidduidi:latest .
+          docker build -t ghcr.io/${{ github.repository }}/tstustust:latest .
 
       - name: Push Docker image to GitHub Container Registry
         run: |
-          docker push ghcr.io/${{ github.repository }}/oieidjdihdi:latest
+          docker push ghcr.io/${{ github.repository }}/tstustust:latest
